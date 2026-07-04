@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="bpaas-design-system" content="organic-stripe">
+    <meta name="bpaas-design-theme" content="kr-organic-stripe">
+    <title>공항 클럽 추천 | T3B08 GH CLUB 블로그 - 진짜 파티를 찾는 놈들만 봐라</title>
+    <meta name="description" content="공항 클럽 추천, 그냥 아무 데나 가면 병신 된다. T3B08 GH CLUB이 진짜다. VIP 라운지, 프리미엄 사운드, 그리고 거침없는 밤. 지금 전화하세요. 010-6279-0862">
+    <meta name="keywords" content="공항 클럽 추천, 공항 클럽, 인천공항 클럽, T3B08, GH CLUB, 클럽, VIP, 파티, 블로그">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://t3b08-gh-club-rc.vercel.app/blog">
+    <meta property="og:title" content="공항 클럽 추천 | T3B08 GH CLUB 블로그 - 진짜 파티를 원한다면">
+    <meta property="og:description" content="공항 근처 클럽? 여기다. T3B08 GH CLUB은 당신이 기다리던 바로 그곳. VIP 라운지, 프리미엄 사운드, 그리고 거침없는 밤. 지금 전화하세요. 010-6279-0862">
+    <meta property="og:image" content="https://t3b08-gh-club-rc.vercel.app/og-image.jpg">
+    <meta property="og:url" content="https://t3b08-gh-club-rc.vercel.app/blog">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ko_KR">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="공항 클럽 추천 | T3B08 GH CLUB 블로그 - 진짜 파티를 원한다면">
+    <meta name="twitter:description" content="공항 근처 클럽? 여기다. T3B08 GH CLUB은 당신이 기다리던 바로 그곳. VIP 라운지, 프리미엄 사운드, 그리고 거침없는 밤. 지금 전화하세요. 010-6279-0862">
+    <style>
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html {
+            scroll-behavior: smooth;
+            font-size: 16px;
+        }
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #0a0a0a;
+            color: #f5f5f5;
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+        h1, h2, h3 {
+            font-weight: 700;
+            letter-spacing: -0.02em;
+        }
+        h1 {
+            font-size: 3rem;
+            line-height: 1.1;
+            margin-bottom: 1rem;
+        }
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 0.75rem;
+        }
+        h3 {
+            font-size: 1.25rem;
+            margin-bottom: 0.5rem;
+        }
+        p {
+            margin-bottom: 1rem;
+            color: #b0b0b0;
+        }
+        a {
+            color: #f5f5f5;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        a:hover {
+            color: #d4a574;
+        }
+        .text-accent {
+            color: #d4a574;
+        }
+        .btn {
+            display: inline-block;
+            padding: 0.75rem 2rem;
+            border: 1px solid #f5f5f5;
+            color: #f5f5f5;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            font-size: 0.875rem;
+        }
+        .btn:hover {
+            background: #f5f5f5;
+            color: #0a0a0a;
+        }
+        .btn-accent {
+            background: #d4a574;
+            border-color: #d4a574;
+            color: #0a0a0a;
+        }
+        .btn-accent:hover {
+            background: transparent;
+            color: #d4a574;
+        }
+        header {
+            padding: 1.5rem 0;
+            border-bottom: 1px solid rgba(245, 245, 245, 0.1);
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 10, 0.95);
+            backdrop-filter: blur(10px);
+            z-index: 100;
+        }
+        header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 800;
+            letter-spacing: -0.03em;
+        }
+        .logo span {
+            color: #d4a574;
+        }
+        nav {
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+        }
+        nav a {
+            font-size: 0.875rem;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        .hamburger-menu {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+            gap: 5px;
+            background: none;
+            border: none;
+            padding: 5px;
+        }
+        .hamburger-menu span {
+            display: block;
+            width: 25px;
+            height: 2px;
+            background: #f5f5f5;
+            transition: all 0.3s ease;
+        }
+        .hero {
+            padding: 6rem 0 4rem;
+            text-align: center;
+        }
+        .hero h1 {
+            max-width: 800px;
+            margin: 0 auto 1.5rem;
+        }
+        .hero p {
+            max-width: 600px;
+            margin: 0 auto 2rem;
+            font-size: 1.125rem;
+        }
+        .blog-post {
+            padding: 2rem 0 6rem;
+        }
+        .blog-post .container {
+            max-width: 800px;
+        }
+        .blog-post h2 {
+            margin-top: 2.5rem;
+            border-left: 4px solid #d4a574;
+            padding-left: 1rem;
+        }
+        .blog-post h3 {
+            margin-top: 1.5rem;
+            color: #d4a574;
+        }
+        .blog-post p {
+            font-size: 1.0625rem;
+            line-height: 1.8;
+        }
+        .blog-post ul {
+            margin: 1rem 0 2rem 1.5rem;
+            color: #b0b0b0;
+        }
+        .blog-post ul li {
+            margin-bottom: 0.5rem;
+            list-style: none;
+            position: relative;
+        }
+        .blog-post ul li::before {
+            content: "—";
+            color: #d4a574;
+            position: absolute;
+            left: -1.5rem;
+        }
+        .blog-post .highlight-box {
+            background: rgba(212, 165, 116, 0.1);
+            border: 1px solid rgba(212, 165, 116, 0.3);
+            padding: 2rem;
+            margin: 2rem 0;
+            border-radius: 4px;
+        }
+        .blog-post .highlight-box p {
+            margin-bottom: 0;
+            font-weight: 500;
+        }
+        .blog-post .cta-inline {
+            text-align: center;
+            margin: 3rem 0;
+            padding: 2rem;
+            border: 1px solid rgba(245, 245, 245, 0.2);
+        }
+        .blog-post .cta-inline a {
+            color: #d4a574;
+            font-weight: 700;
+            font-size: 1.25rem;
+        }
+        .blog-post .cta-inline a:hover {
+            text-decoration: underline;
+        }
+        .faq {
+            padding: 4rem 0;
+            border-top: 1px solid rgba(245, 245, 245, 0.1);
+        }
+        .faq h2 {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        .faq-item {
+            margin-bottom: 1.5rem;
+            padding: 1.5rem;
+            border: 1px solid rgba(245, 245, 245, 0.1);
+            border-radius: 4px;
+            transition: border-color 0.3s ease;
+        }
+        .faq-item:hover {
+            border-color: #d4a574;
+        }
+        .faq-item h3 {
+            color: #d4a574;
+            margin-bottom: 0.5rem;
+        }
+        .faq-item p {
+            margin-bottom: 0;
+        }
+        footer {
+            padding: 3rem 0;
+            border-top: 1px solid rgba(245, 245, 245, 0.1);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.875rem;
+            color: #666;
+        }
+        .tel-link {
+            color: #d4a574;
+            font-weight: 700;
+            letter-spacing: 0.05em;
+        }
+        .tel-link:hover {
+            color: #f5f5f5;
+        }
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+            h2 {
+                font-size: 1.5rem;
+            }
+            .hero {
+                padding: 4rem 0 2rem;
+            }
+            nav {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: rgba(10, 10, 10, 0.98);
+                padding: 1.5rem;
+                gap: 1rem;
+                border-bottom: 1px solid rgba(245, 245, 245, 0.1);
+            }
+            nav.active {
+                display: flex;
+            }
+            .hamburger-menu {
+                display: flex;
+            }
+            .blog-post .container {
+                padding: 0 1rem;
+            }
+            .blog-post .highlight-box {
+                padding: 1.5rem;
+            }
+        }
+        @media (max-width: 480px) {
+            .container {
+                padding: 0 1rem;
+            }
+            h1 {
+                font-size: 1.75rem;
+            }
+        }
+    </style>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="/" class="logo">T3B08 <span>GH CLUB</span></a>
+            <button class="hamburger-menu" aria-label="메뉴 열기">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav id="main-nav">
+                <a href="/">홈</a>
+                <a href="/about">소개</a>
+                <a href="/blog">블로그</a>
+                <a href="/contact">문의</a>
+                <a href="tel:010-6279-0862" class="tel-link">010-6279-0862</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>공항 클럽 추천? <span class="text-accent">가짜는 걸러라</span></h1>
+            <p>인천공항 근처 클럽, 너네는 아무 데나 가고 있지? 병신 같은 선택 그만하고 진짜를 찾아라. T3B08 GH CLUB이 말해준다.</p>
+            <a href="tel:010-6279-0862" class="btn btn-accent">지금 전화 걸어</a>
+        </div>
+    </section>
+
+    <section class="blog-post">
+        <div class="container">
+            <h2>공항 클럽, 왜 아무 데나 가냐?</h2>
+            <p>야, 너 인천공항에 내려서 뭐 할 거야? 호텔 방에서 술이나 까면서 시간 때울 거야? 아니면 근처에 있는 클럽 중에 아무 데나 골라서 들어갈 거야? 둘 다 병신 같은 선택이다. 진짜 파티를 원한다면, 공항 클럽 추천은 단 하나야. T3B08 GH CLUB.</p>
+            <p>내가 왜 이렇게 자신 있게 말하냐고? 직접 가봤기 때문이다. 다른 곳들은 다 똑같아. 뻔한 음악, 형편없는 사운드, 그리고 VIP라면서 서비스는 개차반. 근데 T3B08은 다르다. 여기는 처음부터 끝까지 진짜를 추구한다.</p>
+
+            <div class="highlight-box">
+                <p>“공항 근처 클럽? 여기다. T3B08 GH CLUB은 당신이 기다리던 바로 그곳. VIP 라운지, 프리미엄 사운드, 그리고 거침없는 밤. 지금 전화하세요. <a href="tel:010-6279-0862" class="tel-link">010-6279-0862</a>”</p>
+            </div>
+
+            <h2>왜 T3B08 GH CLUB이 공항 클럽 추천 1위인가?</h2>
+            <p>자, 들어봐. 공항 근처 클럽을 고를 때 중요한 게 뭔지 알아? 분위기? 안주? 음악? 다 필요 없어. 핵심은 단 하나야. <strong>진짜 경험</strong>. T3B08은 그걸 제공한다.</p>
+            <ul>
+                <li><strong>프리미엄 사운드 시스템</strong>: 베이스가 뼛속까지 울린다. 다른 클럽에서는 절대 못 느끼는 쾌감.</li>
+                <li><strong>VIP 라운지</strong>: 일반석에 앉아서 술이나 마시는 건 촌스러워. 여기서는 진짜 VIP처럼 대접받는다.</li>
+                <li><strong>거침없는 밤</strong>: 새벽까지 이어지는 파티. 다음 날 비행기 걱정? 하지 마. 인천공항 바로 옆이니까.</li>
+            </ul>
+            <p>솔직히 말해서, 다른 공항 클럽 추천 글들은 다 광고야. 내 돈 내고 간 곳이 아니면 믿지 마라. 나는 직접 경험하고 이 글을 쓰는 거다.</p>
+
+            <h2>가짜 리뷰에 속지 마라</h2>
+            <p>요즘 인터넷에 공항 클럽 추천이라는 글들이 넘쳐난다. 근데 그중에 진짜는 몇 개나 될까? 대부분이 돈 받고 쓴 가짜 리뷰야. 별점 5점에 “분위기 좋아요” 같은 뻔한 멘트. 그런 거에 속아서 돈 쓰고 후회하지 마라.</p>
+            <p>내가 T3B08을 추천하는 이유는 단순하다. 여기는 가짜가 없으니까. 직원들은 친절하지만 오바하지 않아. 음악은 쎄지만 귀가 아프지 않아. 술은 비싸지만 그만한 값어치를 한다. 이게 진짜야.</p>
+
+            <div class="cta-inline">
+                <p>지금 당장 <a href="tel:010-6279-0862">010-6279-0862</a>로 전화 걸어라. 너를 기다리는 파티가 있다.</p>
+            </div>
+
+            <h2>공항 클럽, 이렇게 고르면 된다</h2>
+            <p>공항 근처 클럽을 고를 때 체크해야 할 3가지. 외워라. 평생 써먹는다.</p>
+            <ul>
+                <li><strong>위치</strong>: 인천공항에서 10분 안에 도착해야 한다. T3B08은 바로 옆이다.</li>
+                <li><strong>사운드</strong>: 클럽은 음악이 생명이다. 프리미엄 사운드가 아니면 가지 마라.</li>
+                <li><strong>VIP 서비스</strong>: 돈 내고 병신 노릇 하지 마라. 진짜 VIP 대접을 받아라.</li>
+            </ul>
+            <p>이 세 가지를 충족하는 곳은 T3B08 GH CLUB뿐이다. 다른 곳은 다 걸러라.</p>
+
+            <h2>결론: 지금 당장 움직여라</h2>
+            <
+</body>
+</html>
